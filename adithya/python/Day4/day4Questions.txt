@@ -1,0 +1,111 @@
+✅ Question 1: Library Book Inventory
+A library keeps a list of book titles available for borrowing. Every day, new books are added, some are removed when borrowed, and duplicates need to be handled.
+
+Your task:
+
+Start with a predefined list of book titles.
+
+For each book in a separate “borrowed” list, remove it from the main list if it exists.
+
+Add new books from an "incoming shipment" list using a loop.
+
+Count how many times a specific book appears.
+
+Reverse the final list and display the inventory.
+
+You should print:
+
+Final list of books
+
+Number of times a specific book appeared
+
+✅ Question 2: Class Topper Finder
+You are given a list of student names along with their scores in two separate lists:
+
+python
+Copy
+Edit
+names = ["Amit", "Sita", "Ravi", "Zara"]
+scores = [85, 92, 88, 91]
+Your task:
+
+Use a loop to find the name of the highest scorer.
+
+Remove the student with the lowest score from both lists.
+
+Insert a new student and their score at the beginning of the list.
+
+Extend the list with a new batch of students and scores.
+
+Reverse the name list for seat allotment.
+
+You should print:
+
+Name of the topper
+
+Final student list
+
+Final score list
+
+✅ Question 3: Order Processing System
+You're managing an order queue in an online shop. Orders come in as a list of order IDs. Some get canceled, some are delivered (popped), and new ones keep coming.
+
+Your task:
+
+Process orders in a while loop: pop and mark as “delivered” until the queue is empty or a specific stop ID is found.
+
+Append new orders from another list.
+
+Remove any duplicate order IDs from the queue.
+
+Display the number of orders processed.
+
+You should print:
+
+List of delivered orders
+
+Final list of pending orders
+
+✅ Question 4: Voting System Validator
+You are validating votes in a list of voter IDs. Some voter IDs are invalid (appear more than once), and some are missing from the expected range.
+
+Your task:
+
+Given a list of voter IDs (integers), use a loop to count how many duplicates exist.
+
+Remove duplicates using list methods.
+
+Check using a loop which voter IDs from range(1, 11) are missing.
+
+Insert a missing voter ID manually.
+
+You should print:
+
+Number of duplicate votes found
+
+Final cleaned voter list
+
+List of missing voter IDs
+
+✅ Question 5: Train Ticket Reservation System
+You're maintaining a reservation list. Bookings and cancellations happen continuously. Each ticket has a passenger name and seat number.
+
+Your task:
+
+Use two lists: one for passenger names, another for seat numbers.
+
+In a loop, cancel reservations (remove name and seat number) based on a list of canceled names.
+
+Insert a new passenger at a specific seat number.
+
+Count how many window seats (e.g., seat numbers divisible by 3) are booked.
+
+Reverse the lists to simulate latest-to-oldest reservations.
+
+You should print:
+
+Updated list of passengers
+
+Count of window seat bookings
+   
+
